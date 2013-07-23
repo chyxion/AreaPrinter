@@ -4,10 +4,10 @@ AreaPrinter
 HTML元素打印，纯JavaScript实现，看起来能正常运行-.-
 
 * 样例代码
-![样例代码](https://github.com/chyxion/AreaPrinter/resources/raw/master/code.jpg)
+![样例代码](https://github.com/chyxion/AreaPrinter/raw/master/resources/code.jpg)
 
 * 打印效果
-![打印效果](https://github.com/chyxion/AreaPrinter/resources/raw/master/print.jpg)
+![打印效果](https://github.com/chyxion/AreaPrinter/raw/master/resources/print.jpg)
 
 ## License
 ==================================
