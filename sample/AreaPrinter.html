@@ -5,6 +5,16 @@
  <title>Just Print It!</title>
 </head>
 <body>
+    <input id="btn_print" value="点我，打印！！！" type="button" 
+        style="width: 200px; height: 120px; font-size: 16pt; color: #f00; font-weight: bold;"/>
+    <script type="text/javascript" src="../AreaPrinter.js"></script>
+    <script type="text/javascript">
+        document.getElementById('btn_print')
+            .addEventListener('click', 
+                function() {
+                    new AreaPrinter('printArea').print();
+            });
+    </script>
     <div id="printArea">
         <p>谁的曾经没有卑微过，现在想起眼角还有泪花。如果有一天，你遇到了一个另一个卑微的她，请接过她的牛奶，微笑着说，你不卑微，我喜欢你做的一切，好吗？</p>
         <p>在微博上看到一篇这样一则故事。</p>
@@ -24,14 +34,5 @@
         <p>你知道吗，过去是回不去的，遗憾再难弥补，但我们能沿着曾经的脚步，走未来的路。</p>
 
     </div> 
-    <input id="btn_print" value="print" type="button" />
-    <script type="text/javascript" src="../AreaPrinter.js"></script>
-    <script type="text/javascript">
-        document.getElementById('btn_print')
-            .addEventListener('click', 
-                function() {
-                    new AreaPrinter('printArea').print();
-            });
-    </script>
 </body>
 </html>
